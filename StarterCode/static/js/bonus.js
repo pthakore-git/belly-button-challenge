@@ -6,7 +6,7 @@ function buildGauge(wfreq){
     let x = radius * Math.cos(radians);
     let y = radius * Math.sin(radians);
 
-    let mainPath = "M -.0 -0.05 L .0 0.05 L ";
+    let mainPath = "M -.0 -0.05 L .0 0.05 L";
     let pathX = String(x);
     let space = " ";
     let pathY = String(y);
